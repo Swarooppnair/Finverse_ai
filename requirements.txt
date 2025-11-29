@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+prophet
+pdfplumber
+google-generativeai
+chromadb
+langchain
+pydantic
+python-multipart
+python-dotenv
+psycopg2-binary
+sqlalchemy
+requests

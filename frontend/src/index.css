@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6366f1;
+  --color-secondary: #ec4899;
+  --color-dark: #0f172a;
+  --color-glass: rgba(255, 255, 255, 0.1);
+
+  --font-sans: 'Inter', sans-serif;
+
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+body {
+  @apply bg-dark text-white font-sans;
+  background: radial-gradient(circle at top left, #1e293b, #0f172a);
+}
+
+.glass-panel {
+  @apply bg-glass backdrop-blur-md border border-white/10 rounded-xl shadow-xl;
+}
